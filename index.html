@@ -1,23 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-248571006-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Leon's Cafe</title>
+	<meta name="description" content="これはHTMLCSSの課題作品です">
+	<meta name="keywords" content="チワワ,チワワ専門カフェ,しつけ教室,譲渡会,チワワ専門コミュニティカフェ">
+	<meta name="robots" content="noindex, nofollow">
+	<!-- 以下CSSをあてる準備 -->
+	<!-- ress.cssをあてる/unpkgコピー/link rel -->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<!-- google fontsをあてる/<link>コピー/３行はりつけ -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Noto+Sans+JP:wght@500&family=Sawarabi+Gothic&display=swap"
+		rel="stylesheet">
+	<!-- CSSを反映させるために入れる -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- fontawesomeを使用するとき
+	<link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet"> -->
 
-  gtag('config', 'UA-248571006-1');
-</script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate練習　中川</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
+
 <body>
-<h1>HELLO WORLD　中川です！！</h1>
+	<div id="home" class="big-bg">
+		<header class="page-header wrapper">
+			<h1>
+				<a href="index.html">
+					<img class="logo" src="images/logo.jpg" alt="Leon's Cafeホーム">
+				</a>
+			</h1>
+			<!-- テキストP180 -->
+			<nav>
+				<ul class="main-nav">
+					<li><a href="index.html">TOP</a></li>
+					<li><a href="concept.html">CONCEPT</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="home-content wrapper">
+			<h2 class="page-title">
+				Chihuahua specialty community cafe
+			</h2>
+			<h3>
+				チワワ好きが集うチワワ専門のコミュニティカフェ
+			</h3>
+			<!-- <a href="menu.html" class="button">
+				メニューを見る
+			</a> -->
+		</div><!-- /.home-content -->
+	</div><!-- /#home -->
+
 </body>
+
 </html>
